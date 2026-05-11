@@ -22,10 +22,10 @@ This repository provides the code to:
 
 ## Files Included
 
-- `Dual_operator.nb` – **Mathematica notebook** containing the construction of the operator in Eq. (29) in the manuscript. This file uses the following two files from the code associated with [arXiv:2310.02252](https://arxiv.org/abs/2310.02252v1$0):
+- `Dual_operator.nb` – **Mathematica notebook** containing the construction of the operator in Eq. (29) in the manuscript. This file uses the following two files from the code associated with [arXiv:2310.02252](https://arxiv.org/abs/2310.02252v1), which can be found in [github:walledbrauer-gtbasis](https://github.com/dgrinko/walledbrauer-gtbasis):
     - `Mixed Schur Tools.wl` 
     - `walled_brauer_gt_basis.wl` 
-- Two **MATLAB** scripts for computing the success probability of the parallel and sequential strategies, both of them using QETLAB
+- Two **MATLAB** scripts for computing the success probability of the parallel and sequential strategies, both of them using [QETLAB](https://qetlab.com)
     - `ZE_par.m` – for **parallel** strategies
     - `ZE_seq.m` – for **sequential** strategies uses the function in:
         - `odskok.m`
