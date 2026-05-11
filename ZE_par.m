@@ -1,5 +1,3 @@
-addpath(genpath('./../QETLAB-1.0'))
-
 global D d n
 d=2; 
 n=4; 
